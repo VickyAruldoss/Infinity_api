@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  infinity-postgres-db:
+    image: postgres
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_PASSWORD=admin
+    restart:  unless-stopped
+    networks:
+      - infinity-network
+
+networks:
+  infinity-network:
+    name: infinity-network
