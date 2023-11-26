@@ -1,0 +1,7 @@
+version: '8.6'
+services:
+  infinity-service-migrate:
+    image:  infinity-service-migrate
+    build: 
+      context:
+      dockerfile: ./migrate.Dockerfile
