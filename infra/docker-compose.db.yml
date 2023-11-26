@@ -1,19 +1,20 @@
-version: "3.8"
+version: '3.7'
 services:
-  postgres-db:
-    container_name: infinity-postgres-db
-    image: postgres
-    ports:
-      - 5432:5432
-    environment:
-      - POSTGRES_USER=admin
-      - POSTGRES_PASSWORD=admin
-      - PGDATA=/pgdata
-      - POSTGRES_DB=test_db
-    restart:  unless-stopped
-    networks:
-      - infinity-network
-
-networks:
-  infinity-network:
-    name: infinity-network
+    postgres:
+        image: postgres:10.5
+        restart: always
+        environment: 
+          - POSTGRES_USER=postgres
+          - POSTGRES_PASSWORD=postgres
+        logging:
+          options:
+            max-size: 10m
+            max-file: "3"
+        ports:
+          - '5432:5432'
+        volumes:
+          - ./postgres-data:/var/lib/postgresql/data
+          # copy the sql script to create tables
+          - ./sql/create_tables.sql:/docker-entrypoint-initdb.d/create_tables.sql
+          # copy the sql script to fill tables
+          - ./sql/fill_tables.sql:/docker-entrypoint-initdb.d/fill_tables.sql
