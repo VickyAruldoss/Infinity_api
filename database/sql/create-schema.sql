@@ -1,0 +1,2 @@
+CREATE SCHEMA IF NOT EXISTS infinity;
+GRANT USAGE, CREATE ON SCHEMA infinity TO test_user;

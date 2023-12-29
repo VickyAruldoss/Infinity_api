@@ -1,0 +1,5 @@
+export PGPASSWORD=$POSTGRES_PASSWORD
+psql -h $POSTGRES_HOST -d $POSTGRES_DB -U $POSTGRES_USERNAME -p $POSTGRES_PORT -q -f database/sql/create-user.sql
+
+export PGPASSWORD=$INFINITY_PASSWORD
+psql -h $POSTGRES_HOST -d $INFINITY_DB -U $INFINITY_USERNAME -p $POSTGRES_PORT -q -f database/sql/create-schema.sql
