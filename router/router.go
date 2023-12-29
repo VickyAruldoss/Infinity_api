@@ -38,5 +38,4 @@ func RegisterRouter(router *gin.Engine, db *sqlx.DB) {
 	memberController := controller.NewMemberController(memberRepository)
 	router.GET("member/get", memberController.Get)
 	router.POST("member/insert", memberController.Post)
-
 }

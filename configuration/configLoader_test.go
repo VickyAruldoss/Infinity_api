@@ -24,9 +24,19 @@ func (s *ConfigurationLoaderTestSuite) TestShouldCallLoadTheConfigurationFromCon
 	expectedConfig := model.ConfigData{
 		Environment: "DEV",
 		Port:        "3000",
+		Postgres: model.Postgres{
+			Sql:      "PostgreSQL",
+			Host:     "localhost",
+			User:     "postgres",
+			Password: "admin",
+			Db:       "todos",
+		},
 	}
+	expectedConnectionString := "PostgreSQL://postgres:admin@localhost/todos?sslmode=disable"
 	data, _ := s.ConfigurationLoader.Load("testconfig.json", "../configfiles/")
+	connectionString := data.GetConnectionString()
 	s.Suite.Equal(expectedConfig, data)
+	s.Suite.Equal(expectedConnectionString, connectionString)
 }
 
 func (s *ConfigurationLoaderTestSuite) TestShouldThrowErrorWhenTheFileDoesnotExists() {

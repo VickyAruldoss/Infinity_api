@@ -1,4 +1,11 @@
 {
     "environment":"DEV",
-    "port":"8080"
+    "port":"8080",
+    "postgres":{
+        "sql":"PostgreSQL",
+        "host":"localhost",
+        "user" :"postgres",
+        "password":"admin",
+        "db":"todos"
+    }
 }
