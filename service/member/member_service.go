@@ -31,27 +31,33 @@ func (service memberService) GetAllMembers() ([]model.Member, error) {
 func buildMembers(membersDto []dto.MemberDTO) []model.Member {
 	var members []model.Member
 	for _, memberDTo := range membersDto {
-		member := model.Member{
-			Id:             *memberDTo.Id,
-			FamilyNo:       *memberDTo.FamilyNo,
-			SubscriptionNo: *memberDTo.SubscriptionNo,
-			FirstName:      memberDTo.FirstName,
-			LastName:       memberDTo.LastName,
-			NameEng:        memberDTo.EngLastName,
-			Gender:         constants.Gender(*memberDTo.Gender),
-			MaritalStatus:  constants.MaritalStatus(*memberDTo.MaritalStatus),
-			Address: model.Address{
-				DoorNo:   0,
-				Street:   memberDTo.Street,
-				Town:     memberDTo.Town,
-				District: memberDTo.City,
-				PinCode:  memberDTo.PostalCode,
-			},
-			FamilyMembers: nil,
-		}
-		member.Title = member.GetTitle()
-		member.FullName = member.GetFullName()
+		member := buildMember(memberDTo)
 		members = append(members, member)
 	}
 	return members
+}
+
+func buildMember(memberDTo dto.MemberDTO) model.Member {
+	member := model.Member{
+		Id:              *memberDTo.Id,
+		FamilyNo:        *memberDTo.FamilyNo,
+		SubscriptionNo:  *memberDTo.SubscriptionNo,
+		FirstName:       memberDTo.FirstName,
+		LastName:        memberDTo.LastName,
+		NameEng:         memberDTo.EngLastName,
+		BaptisedNameEng: memberDTo.EngBaptisedName,
+		Gender:          constants.Gender(*memberDTo.Gender),
+		MaritalStatus:   constants.MaritalStatus(*memberDTo.MaritalStatus),
+		Address: model.Address{
+			DoorNo:   0,
+			Street:   memberDTo.Street,
+			Town:     memberDTo.Town,
+			District: memberDTo.City,
+			PinCode:  memberDTo.PostalCode,
+		},
+		FamilyMembers: nil,
+	}
+	member.Title = member.GetTitle()
+	member.FullName = member.GetFullName()
+	return member
 }
