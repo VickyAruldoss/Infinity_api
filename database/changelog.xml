@@ -1,4 +1,6 @@
 <databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:pro="http://www.liquibase.org/xml/ns/pro" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
     <include file="changes/001_create_cars_master_table.xml" relativeToChangelogFile="true"/>
     <include file="changes/002_insert_cars_master_table.xml" relativeToChangelogFile="true"/>
+    <include file="changes/003_create_member_master_table.xml" relativeToChangelogFile="true"/>
+    <include file="changes/004_insert_members_master_table.xml" relativeToChangelogFile="true"/>
 </databaseChangeLog>

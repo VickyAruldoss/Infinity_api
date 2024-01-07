@@ -9,14 +9,14 @@ import (
 	model "github.com/infinity-api/model"
 )
 
-type ConfigurationLoader interface {
+type ConfigLoader interface {
 	Load(fileName string, configFilePath string) (model.ConfigData, error)
 }
 
 type configurationLoader struct {
 }
 
-func NewConfigurationLoader() *configurationLoader {
+func NewConfigurationLoader() ConfigLoader {
 	return &configurationLoader{}
 }
 
@@ -27,12 +27,19 @@ func (c configurationLoader) Load(fileName string, configFilePath string) (model
 	if jsonOpenError != nil {
 		return configData, jsonOpenError
 	}
-	defer jsonfile.Close()
+	defer func(jsonfile *os.File) {
+		err := jsonfile.Close()
+		if err != nil {
+		}
+	}(jsonfile)
 
 	byteValue, jsonReadError := ioutil.ReadAll(jsonfile)
 	if jsonReadError != nil {
 		return configData, jsonReadError
 	}
-	json.Unmarshal(byteValue, &configData)
+	err := json.Unmarshal(byteValue, &configData)
+	if err != nil {
+		return model.ConfigData{}, err
+	}
 	return configData, nil
 }

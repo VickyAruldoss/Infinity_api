@@ -1,0 +1,39 @@
+<databaseChangeLog
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+	xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+        http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd">
+	<changeSet id="003_CREATE_MEMBER_TABLE" author="infinity">
+		<createTable schemaName="infinity" tableName="member">
+			<column name="id" type="int" autoIncrement="true">
+				<constraints primaryKey="true" nullable="false" unique="true" uniqueConstraintName="id_auto_increment"/>
+			</column>
+			<column name="family_no" type="VARCHAR(4)"/>
+			<column name="member_id" type="VARCHAR(4)"/>
+			<column name="first_name" type="VARCHAR(255)"/>
+			<column name="last_name" type="VARCHAR(255)"/>
+			<column name="baptised_name" type="VARCHAR(255)"/>
+			<column name="eng_last_Name" type="VARCHAR(255)"/>
+			<column name="eng_baptised_name" type="VARCHAR(255)"/>
+			<column name="gender" type="VARCHAR(1)">
+				<constraints nullable="false"/>
+			</column>
+			<column name="marital_status" type="VARCHAR(1)">
+				<constraints nullable="false"/>
+			</column>
+			<column name="street" type="VARCHAR(255)"/>
+			<column name="town" type="VARCHAR(255)"/>
+			<column name="city" type="VARCHAR(255)"/>
+			<column name="postal_code" type="int"/>
+		</createTable>
+		<rollback>
+			<dropTable 
+            schemaName="infinity"
+            tableName="member"/>
+		</rollback>
+	</changeSet>
+</databaseChangeLog>

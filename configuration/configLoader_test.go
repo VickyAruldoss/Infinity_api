@@ -9,7 +9,7 @@ import (
 
 type ConfigurationLoaderTestSuite struct {
 	suite.Suite
-	ConfigurationLoader
+	ConfigLoader
 }
 
 func TestConfigurationLoaderTestSuite(t *testing.T) {
@@ -17,7 +17,7 @@ func TestConfigurationLoaderTestSuite(t *testing.T) {
 }
 
 func (suite *ConfigurationLoaderTestSuite) SetupTest() {
-	suite.ConfigurationLoader = NewConfigurationLoader()
+	suite.ConfigLoader = NewConfigurationLoader()
 }
 
 func (s *ConfigurationLoaderTestSuite) TestShouldCallLoadTheConfigurationFromConfigJSON() {
@@ -33,13 +33,13 @@ func (s *ConfigurationLoaderTestSuite) TestShouldCallLoadTheConfigurationFromCon
 		},
 	}
 	expectedConnectionString := "PostgreSQL://postgres:admin@localhost/todos?sslmode=disable"
-	data, _ := s.ConfigurationLoader.Load("testconfig.json", "../configfiles/")
+	data, _ := s.ConfigLoader.Load("testconfig.json", "../configfiles/")
 	connectionString := data.GetConnectionString()
 	s.Suite.Equal(expectedConfig, data)
 	s.Suite.Equal(expectedConnectionString, connectionString)
 }
 
 func (s *ConfigurationLoaderTestSuite) TestShouldThrowErrorWhenTheFileDoesnotExists() {
-	_, err := s.ConfigurationLoader.Load("test.json", "../configfiles/")
+	_, err := s.ConfigLoader.Load("test.json", "../configfiles/")
 	s.Suite.NotNil(err)
 }

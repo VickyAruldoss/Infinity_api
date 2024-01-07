@@ -9,6 +9,9 @@
         http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd">
 	<changeSet id="001_CREATE_CARS_TABLE" author="infinity">
 		<createTable schemaName="infinity" tableName="cars">
+			<column name="id" type="int" autoIncrement="true">
+				<constraints primaryKey="true" nullable="false" unique="true" uniqueConstraintName="id_auto_increment"/>
+			</column>
 			<column name="brand" type="VARCHAR(255)"/>
 			<column name="model" type="VARCHAR(255)"/>
 			<column name="year" type="int"/>

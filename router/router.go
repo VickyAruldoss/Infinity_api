@@ -2,20 +2,15 @@ package router
 
 import (
 	"fmt"
+	"github.com/infinity-api/service/member"
 	"log"
+	"os"
+	"strconv"
 
 	"github.com/gin-gonic/gin"
 	controller "github.com/infinity-api/controller"
 	repo "github.com/infinity-api/repository"
 	"github.com/jmoiron/sqlx"
-)
-
-const (
-	host     = "localhost"
-	port     = 5432
-	user     = "postgres"
-	password = "admin"
-	dbname   = "test"
 )
 
 func Init(db *sqlx.DB) *gin.Engine {
@@ -25,17 +20,23 @@ func Init(db *sqlx.DB) *gin.Engine {
 }
 
 func InitDb() *sqlx.DB {
-	connectionString := fmt.Sprintf("host= %s port= %d user=%s password =%s dbname = %s sslmode=disable", host, port, user, password, dbname)
-	db, error := sqlx.Connect("postgres", connectionString)
-	if error != nil {
-		log.Fatal(error)
+	host := os.Getenv("POSTGRES_HOST")
+	port, _ := strconv.Atoi(os.Getenv("POSTGRES_PORT"))
+	userName := os.Getenv("INFINITY_USERNAME")
+	password := os.Getenv("INFINITY_PASSWORD")
+	dbName := os.Getenv("INFINITY_DB")
+	connectionString := fmt.Sprintf("host= %s port= %d user=%s password =%s dbname = %s sslmode=disable", host, port, userName, password, dbName)
+	db, err := sqlx.Connect("postgres", connectionString)
+	if err != nil {
+		log.Fatal(err)
 	}
 	return db
 }
 
 func RegisterRouter(router *gin.Engine, db *sqlx.DB) {
-	memberRepository := repo.NewMemberController(db)
-	memberController := controller.NewMemberController(memberRepository)
+	memberRepository := repo.NewMemberRepository(db)
+	memberService := member.NewMemberService(memberRepository)
+	memberController := controller.NewMemberController(memberService)
 	router.GET("member/get", memberController.Get)
 	router.POST("member/insert", memberController.Post)
 }

@@ -13,7 +13,7 @@ import (
 )
 
 func main() {
-	configData := createConfigration()
+	configData := createConfiguration()
 	db := router.InitDb()
 	router := router.Init(db)
 
@@ -27,15 +27,18 @@ func main() {
 	fmt.Println("started and listening in the port : ", configData.Port)
 }
 
-func createConfigration() model.ConfigData {
+func createConfiguration() model.ConfigData {
 	configLoader := configuration.NewConfigurationLoader()
 	configData, _ := configLoader.Load(constants.AppConfig, constants.ConfigFilePath)
 	return configData
 }
 
 func indexHandler(db *sqlx.DB) ([]model.Member, error) {
-	people := []model.Member{}
-	db.Select(&people, "SELECT * FROM company")
+	var people []model.Member
+	err := db.Select(&people, "SELECT * FROM company")
+	if err != nil {
+		return nil, err
+	}
 	jason, john := people[0], people[1]
 
 	fmt.Printf("%#v\n%#v", jason, john)

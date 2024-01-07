@@ -1,0 +1,3067 @@
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd
+        http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd">
+    <changeSet id="001" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="1"/>
+            <column name="member_id" value="1"/>
+            <column name="first_name" value="J.D."/>
+            <column name="last_name" value="யுவராஜ் ஜான்சன்"/>
+            <column name="eng_last_Name" value="Yuvaraj Johnson"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="002" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="1"/>
+            <column name="member_id" value="2"/>
+            <column name="first_name" value="Y."/>
+            <column name="last_name" value="சித்ரா"/>
+            <column name="baptised_name" value="ஜோசபின்"/>
+            <column name="eng_last_Name" value="Chitra"/>
+            <column name="eng_baptised_name" value="Jospine"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="003" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="2"/>
+            <column name="member_id" value="3"/>
+            <column name="first_name" value="J.D."/>
+            <column name="last_name" value="சார்லஸ்"/>
+            <column name="eng_last_Name" value="Charles"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="மாதவரம்"/>
+            <column name="town" value="மாதவரம்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600060"/>
+        </insert>
+    </changeSet>
+    <changeSet id="004" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="2"/>
+            <column name="member_id" value="4"/>
+            <column name="first_name" value="C."/>
+            <column name="last_name" value="வேதப்பிரியா"/>
+            <column name="eng_last_Name" value="Vedhapriya"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="மாதவரம்"/>
+            <column name="town" value="மாதவரம்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600060"/>
+        </insert>
+    </changeSet>
+    <changeSet id="005" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="3"/>
+            <column name="member_id" value="5"/>
+            <column name="first_name" value="J.D."/>
+            <column name="last_name" value="சகாய அரசு"/>
+            <column name="eng_last_Name" value="Sagaya arasu"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="006" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="3"/>
+            <column name="member_id" value="6"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="உஷா"/>
+            <column name="baptised_name" value="இவாஞ்சலின்"/>
+            <column name="eng_last_Name" value="Usha"/>
+            <column name="eng_baptised_name" value="Ivanjaline"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="007" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="4"/>
+            <column name="member_id" value="7"/>
+            <column name="first_name" value="J.D."/>
+            <column name="last_name" value="கிறிஸ்டியன்"/>
+            <column name="eng_last_Name" value="Christian"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="008" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="4"/>
+            <column name="member_id" value="8"/>
+            <column name="first_name" value="C."/>
+            <column name="last_name" value="சுமதி"/>
+            <column name="baptised_name" value="மெர்சி"/>
+            <column name="eng_last_Name" value="Sumathi"/>
+            <column name="eng_baptised_name" value="Mercy"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="009" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="5"/>
+            <column name="member_id" value="9"/>
+            <column name="first_name" value="J.D."/>
+            <column name="last_name" value="மேக்ஸ்வெல்"/>
+            <column name="eng_last_Name" value="Maxwel"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="010" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="5"/>
+            <column name="member_id" value="10"/>
+            <column name="first_name" value="M."/>
+            <column name="last_name" value="சுதா"/>
+            <column name="baptised_name" value="ஆகினஸ்"/>
+            <column name="eng_last_Name" value="Sudha"/>
+            <column name="eng_baptised_name" value="Agines"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="011" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="6"/>
+            <column name="member_id" value="11"/>
+            <column name="first_name" value="A."/>
+            <column name="last_name" value="லதா"/>
+            <column name="baptised_name" value="ரேச்சல்"/>
+            <column name="eng_last_Name" value="Latha"/>
+            <column name="eng_baptised_name" value="Rachel"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="மேட்டு நகர்"/>
+            <column name="town" value="புழல்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600066"/>
+        </insert>
+    </changeSet>
+    <changeSet id="012" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="6"/>
+            <column name="member_id" value="12"/>
+            <column name="last_name" value="விக்கி அருள்தாஸ்"/>
+            <column name="eng_last_Name" value="Vicky Aruldoss"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="S"/>
+            <column name="street" value="மேட்டு நகர்"/>
+            <column name="town" value="புழல்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600066"/>
+        </insert>
+    </changeSet>
+    <changeSet id="013" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="7"/>
+            <column name="member_id" value="13"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="அம்புஜம்"/>
+            <column name="baptised_name" value="மரியாள்"/>
+            <column name="eng_last_Name" value="Ambujam"/>
+            <column name="eng_baptised_name" value="Mariyaal"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="014" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="8"/>
+            <column name="member_id" value="14"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="ஜான் ஜோசப்"/>
+            <column name="eng_last_Name" value="John Joseph"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="015" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="8"/>
+            <column name="member_id" value="15"/>
+            <column name="first_name" value="N."/>
+            <column name="last_name" value="ராஜேஸ்வரி"/>
+            <column name="baptised_name" value="பியூலா"/>
+            <column name="eng_last_Name" value="Rajeswari"/>
+            <column name="eng_baptised_name" value="Beula"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="016" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="9"/>
+            <column name="member_id" value="16"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="ரஞ்சிதம்"/>
+            <column name="baptised_name" value="லீதியாள்"/>
+            <column name="eng_last_Name" value="Ranjitham"/>
+            <column name="eng_baptised_name" value="Lethiyal"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="017" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="10"/>
+            <column name="member_id" value="17"/>
+            <column name="first_name" value="G."/>
+            <column name="last_name" value="சகுந்தலா"/>
+            <column name="baptised_name" value="எலிசபெத்"/>
+            <column name="eng_last_Name" value="Sagunthala"/>
+            <column name="eng_baptised_name" value="Elizibeth"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="018" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="11"/>
+            <column name="member_id" value="18"/>
+            <column name="first_name" value="G."/>
+            <column name="last_name" value="ஜெயமணி"/>
+            <column name="eng_last_Name" value="Jayamani"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="நந்தவனம் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="019" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="12"/>
+            <column name="member_id" value="19"/>
+            <column name="first_name" value="M."/>
+            <column name="last_name" value="மனோகரன்"/>
+            <column name="baptised_name" value="டேனியல்"/>
+            <column name="eng_last_Name" value="Manoharan"/>
+            <column name="eng_baptised_name" value="Daniel"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="020" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="12"/>
+            <column name="member_id" value="20"/>
+            <column name="first_name" value="M."/>
+            <column name="last_name" value="சங்கீதா"/>
+            <column name="eng_last_Name" value="Sangeetha"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="021" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="13"/>
+            <column name="member_id" value="21"/>
+            <column name="first_name" value="M."/>
+            <column name="last_name" value="ரீட்டா"/>
+            <column name="baptised_name" value="சாந்தகுமாரி"/>
+            <column name="eng_last_Name" value="Reeta"/>
+            <column name="eng_baptised_name" value="Santhakumari"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="கலைஞர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="022" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="14"/>
+            <column name="member_id" value="22"/>
+            <column name="first_name" value="A."/>
+            <column name="last_name" value="தேவஅன்பு"/>
+            <column name="eng_last_Name" value="Devanbu"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="M.G.R. நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="023" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="14"/>
+            <column name="member_id" value="23"/>
+            <column name="first_name" value="D."/>
+            <column name="last_name" value="பிரேமா"/>
+            <column name="eng_last_Name" value="Prema"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="M.G.R. நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="024" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="15"/>
+            <column name="member_id" value="24"/>
+            <column name="first_name" value="M."/>
+            <column name="last_name" value="ராஜேஸ்வரி"/>
+            <column name="baptised_name" value="லேயாள்"/>
+            <column name="eng_last_Name" value="Rajeswari Leyal"/>
+            <column name="eng_baptised_name" value="Leyaal"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="025" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="15"/>
+            <column name="member_id" value="25"/>
+            <column name="first_name" value="M."/>
+            <column name="last_name" value="சுகந்தி"/>
+            <column name="baptised_name" value="மனோர்மணி"/>
+            <column name="eng_last_Name" value="Suganthi"/>
+            <column name="eng_baptised_name" value="Manormani"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="S"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="026" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="16"/>
+            <column name="member_id" value="26"/>
+            <column name="first_name" value="M."/>
+            <column name="last_name" value="மாசிலாமணி"/>
+            <column name="eng_last_Name" value="MasilaMani"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="027" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="16"/>
+            <column name="member_id" value="27"/>
+            <column name="first_name" value="M."/>
+            <column name="last_name" value="மேகலா"/>
+            <column name="baptised_name" value="மார்கிரேட்"/>
+            <column name="eng_last_Name" value="Megala margreat M"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="028" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="17"/>
+            <column name="member_id" value="28"/>
+            <column name="first_name" value="V."/>
+            <column name="last_name" value="கோவிந்தராஜ்"/>
+            <column name="baptised_name" value="பேரின்பராஜ்"/>
+            <column name="eng_last_Name" value="Govindarajan"/>
+            <column name="eng_baptised_name" value="Perinbaraj"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="029" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="17"/>
+            <column name="member_id" value="29"/>
+            <column name="first_name" value="G."/>
+            <column name="last_name" value="லட்சுமி"/>
+            <column name="baptised_name" value="ஜாஸ்மின்"/>
+            <column name="eng_last_Name" value="Jasmine"/>
+            <column name="eng_baptised_name" value="Lakshmi"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="030" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="18"/>
+            <column name="member_id" value="30"/>
+            <column name="first_name" value="D."/>
+            <column name="last_name" value="செல்வம்"/>
+            <column name="baptised_name" value="சிமியோன்"/>
+            <column name="eng_last_Name" value="Selvam"/>
+            <column name="eng_baptised_name" value="Simiyon"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="031" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="18"/>
+            <column name="member_id" value="31"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="S.அருள்மொழி ரேவதி"/>
+            <column name="eng_last_Name" value="Revathi"/>
+            <column name="eng_baptised_name" value="Arulmozhi"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="032" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="18"/>
+            <column name="member_id" value="32"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="மணிவண்ணன்"/>
+            <column name="baptised_name" value="பீட்டர்"/>
+            <column name="eng_last_Name" value="Manivannan"/>
+            <column name="eng_baptised_name" value="Peter"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="033" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="20"/>
+            <column name="member_id" value="33"/>
+            <column name="first_name" value="R."/>
+            <column name="last_name" value="சிவா"/>
+            <column name="baptised_name" value="தேவதாஸ்"/>
+            <column name="eng_last_Name" value="Siva"/>
+            <column name="eng_baptised_name" value="Devadas"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="M.G.R. நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="034" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="20"/>
+            <column name="member_id" value="34"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="அம்சா ஜெயராணி"/>
+            <column name="eng_last_Name" value="Jayarani Amsa"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="M.G.R. நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="035" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="21"/>
+            <column name="member_id" value="35"/>
+            <column name="last_name" value="குணசேகரன்"/>
+            <column name="baptised_name" value="டேவிட்"/>
+            <column name="eng_last_Name" value="Gunasekaran "/>
+            <column name="eng_baptised_name" value="David"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="வெள்ளிவாயல்"/>
+            <column name="town" value="வெள்ளிவாயல்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="036" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="21"/>
+            <column name="member_id" value="36"/>
+            <column name="first_name" value="D."/>
+            <column name="last_name" value="ஷீலா"/>
+            <column name="eng_last_Name" value="Sheela"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="வெள்ளிவாயல்"/>
+            <column name="town" value="வெள்ளிவாயல்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="037" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="22"/>
+            <column name="member_id" value="37"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="ரூத் செந்தாமரை"/>
+            <column name="baptised_name" value="ரூத்"/>
+            <column name="eng_last_Name" value="Senthamarai"/>
+            <column name="eng_baptised_name" value="Ruth"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="038" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="23"/>
+            <column name="member_id" value="38"/>
+            <column name="first_name" value="R."/>
+            <column name="last_name" value="ஜெபகுமார்"/>
+            <column name="eng_last_Name" value="JebaKumar"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="நந்தவனம் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="039" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="23"/>
+            <column name="member_id" value="39"/>
+            <column name="last_name" value="நாகு"/>
+            <column name="baptised_name" value="ஜெபக்கொடி"/>
+            <column name="eng_last_Name" value="Nagu "/>
+            <column name="eng_baptised_name" value="Jebakodi"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="நந்தவனம் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="040" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="24"/>
+            <column name="member_id" value="40"/>
+            <column name="first_name" value="J."/>
+            <column name="last_name" value="மாரியம்மாள்"/>
+            <column name="baptised_name" value="மரியாள்"/>
+            <column name="eng_last_Name" value="Mariyammal"/>
+            <column name="eng_baptised_name" value="Mariyal"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="பிள்ளையார் கோவில் தெரு"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="041" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="25"/>
+            <column name="member_id" value="41"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="சுகுமார்"/>
+            <column name="baptised_name" value="கெர்சோன் தேவபிரபு"/>
+            <column name="eng_last_Name" value="Sugumar"/>
+            <column name="eng_baptised_name" value="Gerson Devaprabhu"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="கலைஞர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="042" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="25"/>
+            <column name="member_id" value="42"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="தமிழினி"/>
+            <column name="eng_last_Name" value="Tamizhni"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="கலைஞர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="043" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="26"/>
+            <column name="member_id" value="43"/>
+            <column name="first_name" value="D."/>
+            <column name="last_name" value="நடராஜ்"/>
+            <column name="baptised_name" value="ஜெபச்செல்வன்"/>
+            <column name="eng_last_Name" value="Nataraj"/>
+            <column name="eng_baptised_name" value="Jebaselvan"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="பாரதியார் தெரு, விச்சூர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="044" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="27"/>
+            <column name="member_id" value="44"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="கிருஷ்ணவேணி"/>
+            <column name="baptised_name" value="சலோமி"/>
+            <column name="eng_last_Name" value="Krishnaveni"/>
+            <column name="eng_baptised_name" value="Salomi"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="045" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="28"/>
+            <column name="member_id" value="45"/>
+            <column name="first_name" value="C."/>
+            <column name="last_name" value="மணி"/>
+            <column name="baptised_name" value="லாரன்ஸ்"/>
+            <column name="eng_last_Name" value="Mani"/>
+            <column name="eng_baptised_name" value="Lawrence"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="046" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="28"/>
+            <column name="member_id" value="46"/>
+            <column name="first_name" value="M."/>
+            <column name="last_name" value="நளினி"/>
+            <column name="eng_last_Name" value="Nalini"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="047" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="29"/>
+            <column name="member_id" value="47"/>
+            <column name="first_name" value="A."/>
+            <column name="last_name" value="முனியம்மாள்"/>
+            <column name="baptised_name" value="நகோமி"/>
+            <column name="eng_last_Name" value="Muniyammal"/>
+            <column name="eng_baptised_name" value="Nagomi"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="M.G.R. நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="048" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="30"/>
+            <column name="member_id" value="48"/>
+            <column name="first_name" value="M."/>
+            <column name="last_name" value="நாகலிங்கம்"/>
+            <column name="baptised_name" value="பால்"/>
+            <column name="eng_last_Name" value="Nagalingam"/>
+            <column name="eng_baptised_name" value="Paul"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="049" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="30"/>
+            <column name="member_id" value="49"/>
+            <column name="first_name" value="N."/>
+            <column name="last_name" value="தேவிகா"/>
+            <column name="baptised_name" value="ஜெனீபர்"/>
+            <column name="eng_last_Name" value="Devika"/>
+            <column name="eng_baptised_name" value="Jenifer"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="050" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="31"/>
+            <column name="member_id" value="50"/>
+            <column name="first_name" value="D."/>
+            <column name="last_name" value="அற்புதம்"/>
+            <column name="eng_last_Name" value="Arputham"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="கலைஞர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="051" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="32"/>
+            <column name="member_id" value="51"/>
+            <column name="first_name" value="M."/>
+            <column name="last_name" value="கர்ணன்"/>
+            <column name="baptised_name" value="கிறிஸ்டோபர்"/>
+            <column name="eng_last_Name" value="Karnan"/>
+            <column name="eng_baptised_name" value="Christopher"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="052" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="32"/>
+            <column name="member_id" value="52"/>
+            <column name="first_name" value="K."/>
+            <column name="last_name" value="சாந்தா ஜெபகுமாரி"/>
+            <column name="eng_last_Name" value="Saantha JebaKumari"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="053" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="33"/>
+            <column name="member_id" value="53"/>
+            <column name="first_name" value="C."/>
+            <column name="last_name" value="ஆதிகேசவன்"/>
+            <column name="baptised_name" value="எபினேசர்"/>
+            <column name="eng_last_Name" value="Adhikesavan"/>
+            <column name="eng_baptised_name" value="Ebineezer"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="சுப்பிரமணி நகர்"/>
+            <column name="town" value="விச்சூர் புது நகர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="054" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="33"/>
+            <column name="member_id" value="54"/>
+            <column name="first_name" value="A."/>
+            <column name="last_name" value="குமுதா"/>
+            <column name="baptised_name" value="குளோரி"/>
+            <column name="eng_last_Name" value="Kumutha"/>
+            <column name="eng_baptised_name" value="Glory"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="சுப்பிரமணி நகர்"/>
+            <column name="town" value="விச்சூர் புது நகர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="055" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="34"/>
+            <column name="member_id" value="55"/>
+            <column name="first_name" value="P."/>
+            <column name="last_name" value="சின்னபையன்"/>
+            <column name="baptised_name" value="யாக்கோபு"/>
+            <column name="eng_last_Name" value="Chinnapaiyan"/>
+            <column name="eng_baptised_name" value="Yacobu"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="056" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="34"/>
+            <column name="member_id" value="56"/>
+            <column name="first_name" value="C."/>
+            <column name="last_name" value="லலிதா"/>
+            <column name="baptised_name" value="ராகேல்"/>
+            <column name="eng_last_Name" value="Lalitha"/>
+            <column name="eng_baptised_name" value="Ragel"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="057" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="35"/>
+            <column name="member_id" value="57"/>
+            <column name="first_name" value="M."/>
+            <column name="last_name" value="டார்த்தி"/>
+            <column name="baptised_name" value="பியூலா"/>
+            <column name="eng_last_Name" value="Dorthy"/>
+            <column name="eng_baptised_name" value="Beula"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="கலைஞர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="058" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="36"/>
+            <column name="member_id" value="58"/>
+            <column name="first_name" value="R."/>
+            <column name="last_name" value="ஜீவானந்தம்"/>
+            <column name="eng_last_Name" value="Jeevanantham"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="059" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="36"/>
+            <column name="member_id" value="59"/>
+            <column name="first_name" value="J."/>
+            <column name="last_name" value="வாணி"/>
+            <column name="baptised_name" value="ஜாய்ஸ்"/>
+            <column name="eng_last_Name" value="Vani"/>
+            <column name="eng_baptised_name" value="Joice"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="060" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="36"/>
+            <column name="member_id" value="60"/>
+            <column name="first_name" value="J."/>
+            <column name="last_name" value="அமர்நாத்"/>
+            <column name="baptised_name" value="காட்சன்"/>
+            <column name="eng_last_Name" value="Amarnath"/>
+            <column name="eng_baptised_name" value="Godson"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="S"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="061" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="37"/>
+            <column name="member_id" value="61"/>
+            <column name="first_name" value="M."/>
+            <column name="last_name" value="ஏகம்மாள்"/>
+            <column name="baptised_name" value="ரெபெக்காள்"/>
+            <column name="eng_last_Name" value="Ekgammal"/>
+            <column name="eng_baptised_name" value="Rebekkal"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="062" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="38"/>
+            <column name="member_id" value="62"/>
+            <column name="first_name" value="G."/>
+            <column name="last_name" value="அன்பழகி"/>
+            <column name="eng_last_Name" value="Anbalagi"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="063" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="39"/>
+            <column name="member_id" value="63"/>
+            <column name="first_name" value="N."/>
+            <column name="last_name" value="மைலன்"/>
+            <column name="baptised_name" value="மேத்யூ"/>
+            <column name="eng_last_Name" value="Mailan"/>
+            <column name="eng_baptised_name" value="Mathew"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="064" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="39"/>
+            <column name="member_id" value="64"/>
+            <column name="first_name" value="M."/>
+            <column name="last_name" value="வள்ளியம்மாள்"/>
+            <column name="baptised_name" value="ஜெமிமாள்"/>
+            <column name="eng_last_Name" value="Valliyammal"/>
+            <column name="eng_baptised_name" value="Jemimmal"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="065" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="39"/>
+            <column name="member_id" value="65"/>
+            <column name="first_name" value="M."/>
+            <column name="last_name" value="ராதிகா"/>
+            <column name="baptised_name" value="ஹெலன்"/>
+            <column name="eng_last_Name" value="Radhika M"/>
+            <column name="eng_baptised_name" value="halen"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="S"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="066" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="40"/>
+            <column name="member_id" value="66"/>
+            <column name="first_name" value="D."/>
+            <column name="last_name" value="கனகவள்ளி"/>
+            <column name="baptised_name" value="நகோமி"/>
+            <column name="eng_last_Name" value="Kanagavallli"/>
+            <column name="eng_baptised_name" value="Nogomi"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="067" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="40"/>
+            <column name="member_id" value="67"/>
+            <column name="first_name" value="D."/>
+            <column name="last_name" value="விஸ்வநாதன்"/>
+            <column name="baptised_name" value="பால்"/>
+            <column name="eng_last_Name" value="Viswanathan"/>
+            <column name="eng_baptised_name" value="Paul"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="S"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="068" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="40"/>
+            <column name="member_id" value="68"/>
+            <column name="first_name" value="D."/>
+            <column name="last_name" value="பிரித்தியா"/>
+            <column name="baptised_name" value="ஜெசிந்தா"/>
+            <column name="eng_last_Name" value="Preethiya"/>
+            <column name="eng_baptised_name" value="Jesintha"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="S"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="069" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="41"/>
+            <column name="member_id" value="69"/>
+            <column name="first_name" value="K."/>
+            <column name="last_name" value="பரந்தாமன்"/>
+            <column name="baptised_name" value="பிரான்சிஸ்"/>
+            <column name="eng_last_Name" value="Prandhaman"/>
+            <column name="eng_baptised_name" value="Francis"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="பெரியார் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="070" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="41"/>
+            <column name="member_id" value="70"/>
+            <column name="first_name" value="P."/>
+            <column name="last_name" value="உஷா"/>
+            <column name="baptised_name" value="பிரமிளா"/>
+            <column name="eng_last_Name" value="Usha"/>
+            <column name="eng_baptised_name" value="Piramila"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="பெரியார் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="071" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="42"/>
+            <column name="member_id" value="71"/>
+            <column name="first_name" value="A."/>
+            <column name="last_name" value="பாரதி"/>
+            <column name="eng_last_Name" value="Bharathi"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="072" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="43"/>
+            <column name="member_id" value="72"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="கவிதா"/>
+            <column name="baptised_name" value="மெர்லின்"/>
+            <column name="eng_last_Name" value="Kavitha"/>
+            <column name="eng_baptised_name" value="Merlin"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="073" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="44"/>
+            <column name="member_id" value="73"/>
+            <column name="first_name" value="C."/>
+            <column name="last_name" value="ஜெயம்மாள்"/>
+            <column name="eng_last_Name" value="Jayammal"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="074" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="45"/>
+            <column name="member_id" value="74"/>
+            <column name="first_name" value="G."/>
+            <column name="last_name" value="ஜெபராணி"/>
+            <column name="eng_last_Name" value="Jebarani"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="075" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="46"/>
+            <column name="member_id" value="75"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="லட்சுமி"/>
+            <column name="baptised_name" value="மரகதம்"/>
+            <column name="eng_last_Name" value="Lakshmi"/>
+            <column name="eng_baptised_name" value="Maragatham"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="வெள்ளிவாயல்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="076" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="47"/>
+            <column name="member_id" value="76"/>
+            <column name="first_name" value="C."/>
+            <column name="last_name" value="ராணி"/>
+            <column name="baptised_name" value="எஸ்தர்"/>
+            <column name="eng_last_Name" value="Rani"/>
+            <column name="eng_baptised_name" value="Esther"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="077" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="48"/>
+            <column name="member_id" value="77"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="சுமன்"/>
+            <column name="baptised_name" value="சுவிஷேச முத்து"/>
+            <column name="eng_last_Name" value="Suman "/>
+            <column name="eng_baptised_name" value="Suvishesha Muthu"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="078" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="48"/>
+            <column name="member_id" value="78"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="மாலா"/>
+            <column name="baptised_name" value="தெபோராள்"/>
+            <column name="eng_last_Name" value="Mala"/>
+            <column name="eng_baptised_name" value="Deboral"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="079" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="49"/>
+            <column name="member_id" value="79"/>
+            <column name="first_name" value="M."/>
+            <column name="last_name" value="மன்மதன்"/>
+            <column name="baptised_name" value="மார்க்"/>
+            <column name="eng_last_Name" value="Manathan"/>
+            <column name="eng_baptised_name" value="Mark"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="080" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="49"/>
+            <column name="member_id" value="80"/>
+            <column name="first_name" value="M."/>
+            <column name="last_name" value="ஜானகி"/>
+            <column name="baptised_name" value="ஜானட்"/>
+            <column name="eng_last_Name" value="Janaki"/>
+            <column name="eng_baptised_name" value="Janet"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="081" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="50"/>
+            <column name="member_id" value="81"/>
+            <column name="first_name" value="J."/>
+            <column name="last_name" value="ஆறுமுகம்"/>
+            <column name="baptised_name" value="சாமுவேல்"/>
+            <column name="eng_last_Name" value="Arumugam"/>
+            <column name="eng_baptised_name" value="Samuel"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="பிள்ளையார் கோவில் தெரு"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="082" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="50"/>
+            <column name="member_id" value="82"/>
+            <column name="first_name" value="A."/>
+            <column name="last_name" value="பென்னி"/>
+            <column name="baptised_name" value="ஜாக்குலின்"/>
+            <column name="eng_last_Name" value="Penny"/>
+            <column name="eng_baptised_name" value="Jacqueline"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="பிள்ளையார் கோவில் தெரு"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="083" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="51"/>
+            <column name="member_id" value="83"/>
+            <column name="first_name" value="M."/>
+            <column name="last_name" value="குப்பன்"/>
+            <column name="baptised_name" value="அதிசயராஜ்"/>
+            <column name="eng_last_Name" value="Kuppan"/>
+            <column name="eng_baptised_name" value="Athisayaraj"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="பிள்ளையார் கோவில் தெரு"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="084" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="51"/>
+            <column name="member_id" value="84"/>
+            <column name="first_name" value="M."/>
+            <column name="last_name" value="அஞ்சலி மணிமேகலை"/>
+            <column name="baptised_name" value="அஞ்சலி"/>
+            <column name="eng_last_Name" value="Anjali Manimegalai"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="பிள்ளையார் கோவில் தெரு"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="085" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="52"/>
+            <column name="member_id" value="85"/>
+            <column name="last_name" value="தேவராஜ்"/>
+            <column name="baptised_name" value="மனோவா"/>
+            <column name="eng_last_Name" value="Devaraj"/>
+            <column name="eng_baptised_name" value="Manova"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="086" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="52"/>
+            <column name="member_id" value="86"/>
+            <column name="first_name" value="D."/>
+            <column name="last_name" value="திருமங்கை"/>
+            <column name="baptised_name" value="எப்சிபா"/>
+            <column name="eng_last_Name" value="Thirumangai"/>
+            <column name="eng_baptised_name" value="Ebsiba"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="087" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="52"/>
+            <column name="member_id" value="87"/>
+            <column name="first_name" value="D."/>
+            <column name="last_name" value="தினேஷ் குமார்"/>
+            <column name="eng_last_Name" value="Dinesh kumar"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="S"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="088" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="53"/>
+            <column name="member_id" value="88"/>
+            <column name="first_name" value="N."/>
+            <column name="last_name" value="காந்தாமணி"/>
+            <column name="eng_last_Name" value="Gandhamani"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="089" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="54"/>
+            <column name="member_id" value="89"/>
+            <column name="last_name" value="எமிமாள் வாணகி"/>
+            <column name="baptised_name" value="எமிமாள்"/>
+            <column name="eng_last_Name" value="Vaanagai "/>
+            <column name="eng_baptised_name" value="Emimaal"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="090" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="55"/>
+            <column name="member_id" value="90"/>
+            <column name="first_name" value="C."/>
+            <column name="last_name" value="முனுசாமி"/>
+            <column name="baptised_name" value="தாமஸ்"/>
+            <column name="eng_last_Name" value="Munuswamy"/>
+            <column name="eng_baptised_name" value="Thomas"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="091" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="55"/>
+            <column name="member_id" value="91"/>
+            <column name="first_name" value="M."/>
+            <column name="last_name" value="எழிலரசி"/>
+            <column name="eng_last_Name" value="Ezilarasi"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="092" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="55"/>
+            <column name="member_id" value="92"/>
+            <column name="first_name" value="M."/>
+            <column name="last_name" value="பிரியதர்ஷினி"/>
+            <column name="baptised_name" value="பியூலா"/>
+            <column name="eng_last_Name" value="Priyadarshini"/>
+            <column name="eng_baptised_name" value="Beula"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="S"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="093" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="56"/>
+            <column name="member_id" value="93"/>
+            <column name="first_name" value="A."/>
+            <column name="last_name" value="முருகம்மாள்"/>
+            <column name="eng_last_Name" value="Murugammal"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="094" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="57"/>
+            <column name="member_id" value="94"/>
+            <column name="first_name" value="A."/>
+            <column name="last_name" value="பிரஷாந்த்"/>
+            <column name="baptised_name" value="பால்"/>
+            <column name="eng_last_Name" value="Prashanth "/>
+            <column name="eng_baptised_name" value="Paul"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="095" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="57"/>
+            <column name="member_id" value="95"/>
+            <column name="first_name" value="P."/>
+            <column name="last_name" value="ஈஸ்வரி"/>
+            <column name="baptised_name" value="ஹெலன்"/>
+            <column name="eng_last_Name" value="Eswari"/>
+            <column name="eng_baptised_name" value="Helan"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="096" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="58"/>
+            <column name="member_id" value="96"/>
+            <column name="first_name" value="G."/>
+            <column name="last_name" value="நித்தியானந்தம்"/>
+            <column name="eng_last_Name" value="Nithiyanantham"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="097" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="58"/>
+            <column name="member_id" value="97"/>
+            <column name="first_name" value="N."/>
+            <column name="last_name" value="லதா"/>
+            <column name="baptised_name" value="தேவகிருபை"/>
+            <column name="eng_last_Name" value="Latha"/>
+            <column name="eng_baptised_name" value="Devakirubai"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="098" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="59"/>
+            <column name="member_id" value="98"/>
+            <column name="first_name" value="G."/>
+            <column name="last_name" value="அம்மாயி"/>
+            <column name="baptised_name" value="அன்னாள்"/>
+            <column name="eng_last_Name" value="Ammaaiyi"/>
+            <column name="eng_baptised_name" value="Annaal"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="099" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="60"/>
+            <column name="member_id" value="99"/>
+            <column name="first_name" value="A."/>
+            <column name="last_name" value="பிரேம்குமார்"/>
+            <column name="baptised_name" value="சாம்ராஜ்"/>
+            <column name="eng_last_Name" value="Premkumar"/>
+            <column name="eng_baptised_name" value="Samraj"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="சுப்பிரமணி நகர்"/>
+            <column name="town" value="விச்சூர் புது நகர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="100" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="60"/>
+            <column name="member_id" value="100"/>
+            <column name="first_name" value="N.P."/>
+            <column name="last_name" value="நான்சி பிலோமினா"/>
+            <column name="eng_last_Name" value="Nancy pilomina"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="சுப்பிரமணி நகர்"/>
+            <column name="town" value="விச்சூர் புது நகர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="101" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="61"/>
+            <column name="member_id" value="101"/>
+            <column name="first_name" value="N."/>
+            <column name="last_name" value="நவீன்குமார்"/>
+            <column name="baptised_name" value="ஜோயல்"/>
+            <column name="eng_last_Name" value="Naveen kumar"/>
+            <column name="eng_baptised_name" value="Joel"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="102" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="61"/>
+            <column name="member_id" value="102"/>
+            <column name="first_name" value="N."/>
+            <column name="last_name" value="கிறிஸ்டினா"/>
+            <column name="eng_last_Name" value="Christina"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="103" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="62"/>
+            <column name="member_id" value="103"/>
+            <column name="first_name" value="Y."/>
+            <column name="last_name" value="பிரதீப்ராஜ்"/>
+            <column name="eng_last_Name" value="Pradeepraj"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="104" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="62"/>
+            <column name="member_id" value="104"/>
+            <column name="first_name" value="P."/>
+            <column name="last_name" value="திவ்யா"/>
+            <column name="baptised_name" value="ஷெர்லின்"/>
+            <column name="eng_last_Name" value="Divya"/>
+            <column name="eng_baptised_name" value="Sherlin"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="105" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="63"/>
+            <column name="member_id" value="105"/>
+            <column name="last_name" value="ஜான் செந்தில்"/>
+            <column name="baptised_name" value="ஜான்"/>
+            <column name="eng_last_Name" value="Senthil "/>
+            <column name="eng_baptised_name" value="John"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அருமந்தை"/>
+            <column name="town" value="அருமந்தை"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="106" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="63"/>
+            <column name="member_id" value="106"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="மேரி"/>
+            <column name="baptised_name" value="எஸ்தர்"/>
+            <column name="eng_last_Name" value="Mary"/>
+            <column name="eng_baptised_name" value="Esther"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அருமந்தை"/>
+            <column name="town" value="அருமந்தை"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="107" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="64"/>
+            <column name="member_id" value="107"/>
+            <column name="first_name" value="A."/>
+            <column name="last_name" value="பாலாஜி"/>
+            <column name="baptised_name" value="மார்டின்"/>
+            <column name="eng_last_Name" value="Balaji "/>
+            <column name="eng_baptised_name" value="Martin"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="வெள்ளிவாயல்"/>
+            <column name="town" value="வெள்ளிவாயல்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="108" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="64"/>
+            <column name="member_id" value="108"/>
+            <column name="first_name" value="B."/>
+            <column name="last_name" value="சுதா"/>
+            <column name="baptised_name" value="ஸ்வீட்டீ"/>
+            <column name="eng_last_Name" value="Sudha"/>
+            <column name="eng_baptised_name" value="Sweety"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="வெள்ளிவாயல்"/>
+            <column name="town" value="வெள்ளிவாயல்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="109" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="65"/>
+            <column name="member_id" value="109"/>
+            <column name="last_name" value="கோபால்"/>
+            <column name="baptised_name" value="ரூபான்பால்"/>
+            <column name="eng_last_Name" value="Gopal "/>
+            <column name="eng_baptised_name" value="Rubanpaul"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="ஈச்சங்குழி"/>
+            <column name="town" value="ஈச்சங்குழி"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="110" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="65"/>
+            <column name="member_id" value="110"/>
+            <column name="first_name" value="G."/>
+            <column name="last_name" value="மேரி"/>
+            <column name="eng_last_Name" value="Mary"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="ஈச்சங்குழி"/>
+            <column name="town" value="ஈச்சங்குழி"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="111" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="66"/>
+            <column name="member_id" value="111"/>
+            <column name="first_name" value="T."/>
+            <column name="last_name" value="ராஜன்"/>
+            <column name="eng_last_Name" value="Rajan"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="பூபாலன் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="112" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="66"/>
+            <column name="member_id" value="112"/>
+            <column name="first_name" value="R."/>
+            <column name="last_name" value="சகுந்தலா"/>
+            <column name="eng_last_Name" value="Sagunthala"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="பூபாலன் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="113" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="67"/>
+            <column name="member_id" value="113"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="ராஜேஷ்"/>
+            <column name="baptised_name" value="ஜான்"/>
+            <column name="eng_last_Name" value="Rajesh "/>
+            <column name="eng_baptised_name" value="John"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="நந்தவனம் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="114" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="67"/>
+            <column name="member_id" value="114"/>
+            <column name="first_name" value="R."/>
+            <column name="last_name" value="நான்சி"/>
+            <column name="eng_last_Name" value="Nancy"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="நந்தவனம் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="115" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="68"/>
+            <column name="member_id" value="115"/>
+            <column name="first_name" value="D."/>
+            <column name="last_name" value="ஜெயகாந்த்"/>
+            <column name="baptised_name" value="டேவிட்"/>
+            <column name="eng_last_Name" value="Jayakanth"/>
+            <column name="eng_baptised_name" value="David"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அருமந்தை"/>
+            <column name="town" value="அருமந்தை"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="116" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="68"/>
+            <column name="member_id" value="116"/>
+            <column name="first_name" value="J."/>
+            <column name="last_name" value="அகிலா"/>
+            <column name="baptised_name" value="எஸ்தர்"/>
+            <column name="eng_last_Name" value="Akila"/>
+            <column name="eng_baptised_name" value="Esther"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அருமந்தை"/>
+            <column name="town" value="அருமந்தை"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="117" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="69"/>
+            <column name="member_id" value="117"/>
+            <column name="last_name" value="சண்முகம்"/>
+            <column name="eng_last_Name" value="Shanmugam "/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அருமந்தை"/>
+            <column name="town" value="அருமந்தை"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="118" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="70"/>
+            <column name="member_id" value="118"/>
+            <column name="last_name" value="சுரேஷ் பாபு"/>
+            <column name="baptised_name" value="ஐசாயா"/>
+            <column name="eng_last_Name" value="Suresh babu"/>
+            <column name="eng_baptised_name" value="Issaiah"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="திருநிலை"/>
+            <column name="town" value="திருநிலை"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="119" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="70"/>
+            <column name="member_id" value="119"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="சுவிகினி மேரி"/>
+            <column name="eng_last_Name" value="Suvigini Mary"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="திருநிலை"/>
+            <column name="town" value="திருநிலை"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="120" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="70"/>
+            <column name="member_id" value="120"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="பெலிசியா"/>
+            <column name="baptised_name" value="ரூபி"/>
+            <column name="eng_last_Name" value="Felicia"/>
+            <column name="eng_baptised_name" value="Ruby"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="திருநிலை"/>
+            <column name="town" value="திருநிலை"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="121" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="70"/>
+            <column name="member_id" value="121"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="வில்லியம்ஸ்"/>
+            <column name="baptised_name" value="ரூபன்"/>
+            <column name="eng_last_Name" value="Williamms"/>
+            <column name="eng_baptised_name" value="Ruban"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="திருநிலை"/>
+            <column name="town" value="திருநிலை"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="122" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="71"/>
+            <column name="member_id" value="122"/>
+            <column name="first_name" value="G."/>
+            <column name="last_name" value="சார்லஸ்"/>
+            <column name="eng_last_Name" value="Charles"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="123" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="71"/>
+            <column name="member_id" value="123"/>
+            <column name="first_name" value="C."/>
+            <column name="last_name" value="தமிழ்செல்வி"/>
+            <column name="eng_last_Name" value="ThamizSelvi"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="124" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="72"/>
+            <column name="member_id" value="124"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="தேவி"/>
+            <column name="baptised_name" value="பிரிஸ்கில்லா"/>
+            <column name="eng_last_Name" value="Devi"/>
+            <column name="eng_baptised_name" value="Priscilla"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="125" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="73"/>
+            <column name="member_id" value="125"/>
+            <column name="first_name" value="C."/>
+            <column name="last_name" value="ஜீவா"/>
+            <column name="eng_last_Name" value="Jeeva"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="M.G.R. நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="126" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="73"/>
+            <column name="member_id" value="126"/>
+            <column name="first_name" value="C."/>
+            <column name="last_name" value="நிர்மல் ராஜ்"/>
+            <column name="eng_last_Name" value="NirmalRaj"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="M.G.R. நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="127" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="74"/>
+            <column name="member_id" value="127"/>
+            <column name="first_name" value="D."/>
+            <column name="last_name" value="கோமதி"/>
+            <column name="eng_last_Name" value="Gomathi"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="128" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="74"/>
+            <column name="member_id" value="128"/>
+            <column name="first_name" value="D."/>
+            <column name="last_name" value="சரவணன்"/>
+            <column name="baptised_name" value="இம்மானுவேல்"/>
+            <column name="eng_last_Name" value="Savaranan"/>
+            <column name="eng_baptised_name" value="Immanuel"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="129" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="75"/>
+            <column name="member_id" value="129"/>
+            <column name="last_name" value="அறிவழகன்"/>
+            <column name="baptised_name" value="கபிரியேல்"/>
+            <column name="eng_last_Name" value="Arivazhagan"/>
+            <column name="eng_baptised_name" value="Gabriel"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="வெள்ளிவாயல்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="130" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="75"/>
+            <column name="member_id" value="130"/>
+            <column name="first_name" value="A."/>
+            <column name="last_name" value="யசோதா"/>
+            <column name="baptised_name" value="எஸ்தர்"/>
+            <column name="eng_last_Name" value="Yasodha"/>
+            <column name="eng_baptised_name" value="Esther"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="வெள்ளிவாயல்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="131" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="76"/>
+            <column name="member_id" value="131"/>
+            <column name="last_name" value="பச்சையம்மாள்"/>
+            <column name="baptised_name" value="லிதியாள்"/>
+            <column name="eng_last_Name" value="Pachammal"/>
+            <column name="eng_baptised_name" value="Lithiyaal"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="வெள்ளிவாயல்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="132" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="77"/>
+            <column name="member_id" value="132"/>
+            <column name="last_name" value="அன்னம்மாள்"/>
+            <column name="baptised_name" value="அன்னாள்"/>
+            <column name="eng_last_Name" value="Annammal"/>
+            <column name="eng_baptised_name" value="Annaal"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="133" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="78"/>
+            <column name="member_id" value="133"/>
+            <column name="last_name" value="பால் பிரகாஷ்"/>
+            <column name="baptised_name" value="பால்"/>
+            <column name="eng_last_Name" value="Prakash"/>
+            <column name="eng_baptised_name" value="Paul"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="134" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="78"/>
+            <column name="member_id" value="134"/>
+            <column name="first_name" value="P."/>
+            <column name="last_name" value=" தீபா"/>
+            <column name="baptised_name" value="மெர்லின்"/>
+            <column name="eng_last_Name" value="Deepa"/>
+            <column name="eng_baptised_name" value="Merlin"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="135" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="1"/>
+            <column name="member_id" value="135"/>
+            <column name="first_name" value="Y."/>
+            <column name="last_name" value="அமிர்தராஜ்"/>
+            <column name="baptised_name" value="ஜான்"/>
+            <column name="eng_last_Name" value="Amirtharaj"/>
+            <column name="eng_baptised_name" value="John"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="S"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="136" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="1"/>
+            <column name="member_id" value="136"/>
+            <column name="first_name" value="Y."/>
+            <column name="last_name" value="பவுல்ராஜ்"/>
+            <column name="eng_last_Name" value="Paul Raj"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="S"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="137" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="2"/>
+            <column name="member_id" value="137"/>
+            <column name="first_name" value="C."/>
+            <column name="last_name" value="ராஜ்குமார்"/>
+            <column name="baptised_name" value="பெனியேல்"/>
+            <column name="eng_last_Name" value="Rajkumar"/>
+            <column name="eng_baptised_name" value="Beniyal"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="S"/>
+            <column name="street" value="மாதவரம்"/>
+            <column name="town" value="மாதவரம்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600060"/>
+        </insert>
+    </changeSet>
+    <changeSet id="138" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="79"/>
+            <column name="member_id" value="138"/>
+            <column name="first_name" value="V."/>
+            <column name="last_name" value="ஜெயசித்ரா"/>
+            <column name="baptised_name" value="ஜோசபின்"/>
+            <column name="eng_last_Name" value="Jayachithra"/>
+            <column name="eng_baptised_name" value="Joshpine"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="வெள்ளிவாயல்"/>
+            <column name="town" value="வெள்ளிவாயல்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="139" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="80"/>
+            <column name="member_id" value="139"/>
+            <column name="last_name" value="ரமணியம்மாள்"/>
+            <column name="eng_last_Name" value="Ramaniyammal "/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="140" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="81"/>
+            <column name="member_id" value="140"/>
+            <column name="first_name" value="J."/>
+            <column name="last_name" value="தேவி"/>
+            <column name="baptised_name" value="ஆரோன்"/>
+            <column name="eng_last_Name" value="Devi"/>
+            <column name="eng_baptised_name" value="Aaron"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="141" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="82"/>
+            <column name="member_id" value="141"/>
+            <column name="first_name" value="J."/>
+            <column name="last_name" value="கஜமல்லி"/>
+            <column name="eng_last_Name" value="Gajamalli"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="142" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="83"/>
+            <column name="member_id" value="142"/>
+            <column name="first_name" value="R."/>
+            <column name="last_name" value="வரதராஜ்"/>
+            <column name="baptised_name" value="ஜான்"/>
+            <column name="eng_last_Name" value="Varatharaj"/>
+            <column name="eng_baptised_name" value="John"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="143" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="83"/>
+            <column name="member_id" value="143"/>
+            <column name="first_name" value="V."/>
+            <column name="last_name" value="வேளாங்கண்ணி"/>
+            <column name="baptised_name" value="எப்சிபா"/>
+            <column name="eng_last_Name" value="Vellankanni"/>
+            <column name="eng_baptised_name" value="Ebsibha"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="144" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="84"/>
+            <column name="member_id" value="144"/>
+            <column name="last_name" value="டில்லிராணி"/>
+            <column name="baptised_name" value="பிரான்சிஸ்"/>
+            <column name="eng_last_Name" value="Dillirani"/>
+            <column name="eng_baptised_name" value="Fransis"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="பெருமாள் கோவில் தெரு"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="145" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="85"/>
+            <column name="member_id" value="145"/>
+            <column name="first_name" value="G."/>
+            <column name="last_name" value="மச்சகாந்தி"/>
+            <column name="baptised_name" value="மார்த்தாள்"/>
+            <column name="eng_last_Name" value="Machagandhi"/>
+            <column name="eng_baptised_name" value="Marthaal"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="பெருமாள் கோவில் தெரு"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="146" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="66"/>
+            <column name="member_id" value="146"/>
+            <column name="first_name" value="R."/>
+            <column name="last_name" value="ராகுல் ராஜ்"/>
+            <column name="eng_last_Name" value="Rahul Raj"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="S"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="147" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="4"/>
+            <column name="member_id" value="147"/>
+            <column name="last_name" value="ஷீபா"/>
+            <column name="eng_last_Name" value="Sheeba"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="S"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="148" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="86"/>
+            <column name="member_id" value="148"/>
+            <column name="first_name" value="A."/>
+            <column name="last_name" value="விஜயா"/>
+            <column name="baptised_name" value="பிஸ்கில்லா"/>
+            <column name="eng_last_Name" value="Vijaya"/>
+            <column name="eng_baptised_name" value="Priskilla"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="149" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="87"/>
+            <column name="member_id" value="149"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="சாந்தி"/>
+            <column name="baptised_name" value="பியூலா"/>
+            <column name="eng_last_Name" value="Shanthi"/>
+            <column name="eng_baptised_name" value="Beula"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அருமந்தை"/>
+            <column name="town" value="அருமந்தை"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600067"/>
+        </insert>
+    </changeSet>
+    <changeSet id="150" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="88"/>
+            <column name="member_id" value="150"/>
+            <column name="last_name" value="ஆறுமுகம்"/>
+            <column name="baptised_name" value="ஆபிரகாம்"/>
+            <column name="eng_last_Name" value="Arumugam"/>
+            <column name="eng_baptised_name" value="Abraham"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அருமந்தை"/>
+            <column name="town" value="அருமந்தை"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600067"/>
+        </insert>
+    </changeSet>
+    <changeSet id="151" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="88"/>
+            <column name="member_id" value="151"/>
+            <column name="last_name" value="மங்கை சாராள்"/>
+            <column name="eng_last_Name" value="Mangai Saral"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அருமந்தை"/>
+            <column name="town" value="அருமந்தை"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600067"/>
+        </insert>
+    </changeSet>
+    <changeSet id="152" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="89"/>
+            <column name="member_id" value="152"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="சுஜாதா"/>
+            <column name="eng_last_Name" value="Sujatha"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அருமந்தை"/>
+            <column name="town" value="அருமந்தை"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600067"/>
+        </insert>
+    </changeSet>
+    <changeSet id="153" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="89"/>
+            <column name="member_id" value="153"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="நான்சி"/>
+            <column name="eng_last_Name" value="Nancy"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அருமந்தை"/>
+            <column name="town" value="அருமந்தை"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600067"/>
+        </insert>
+    </changeSet>
+    <changeSet id="154" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="90"/>
+            <column name="member_id" value="154"/>
+            <column name="last_name" value="இயேசு தாஸ்"/>
+            <column name="eng_last_Name" value="Jesudass"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அருமந்தை"/>
+            <column name="town" value="அருமந்தை"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600067"/>
+        </insert>
+    </changeSet>
+    <changeSet id="155" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="90"/>
+            <column name="member_id" value="155"/>
+            <column name="first_name" value="E."/>
+            <column name="last_name" value="மேரி"/>
+            <column name="baptised_name" value="ரெஜினா"/>
+            <column name="eng_last_Name" value="Mary"/>
+            <column name="eng_baptised_name" value="Regina"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அருமந்தை"/>
+            <column name="town" value="அருமந்தை"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600067"/>
+        </insert>
+    </changeSet>
+    <changeSet id="156" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="91"/>
+            <column name="member_id" value="156"/>
+            <column name="last_name" value="மணிமேகலை பிரின்சி"/>
+            <column name="eng_last_Name" value="Manimegalai Princy"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அருமந்தை"/>
+            <column name="town" value="அருமந்தை"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600067"/>
+        </insert>
+    </changeSet>
+    <changeSet id="157" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="92"/>
+            <column name="member_id" value="157"/>
+            <column name="last_name" value="ரேவதி ராஜேஷ்"/>
+            <column name="eng_last_Name" value="Revathi Rajesh"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அருமந்தை"/>
+            <column name="town" value="அருமந்தை"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600067"/>
+        </insert>
+    </changeSet>
+    <changeSet id="158" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="93"/>
+            <column name="member_id" value="158"/>
+            <column name="last_name" value="கதிர்வேல்"/>
+            <column name="baptised_name" value="யோபு"/>
+            <column name="eng_last_Name" value="Kathirvel"/>
+            <column name="eng_baptised_name" value="Yobu"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அருமந்தை"/>
+            <column name="town" value="அருமந்தை"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600067"/>
+        </insert>
+    </changeSet>
+    <changeSet id="159" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="94"/>
+            <column name="member_id" value="159"/>
+            <column name="last_name" value="பிரான்சிஸ்"/>
+            <column name="eng_last_Name" value="Fransis"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அருமந்தை"/>
+            <column name="town" value="அருமந்தை"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600067"/>
+        </insert>
+    </changeSet>
+    <changeSet id="160" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="94"/>
+            <column name="member_id" value="160"/>
+            <column name="last_name" value="தங்கராஜ்"/>
+            <column name="eng_last_Name" value="Thangaraj"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அருமந்தை"/>
+            <column name="town" value="அருமந்தை"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600067"/>
+        </insert>
+    </changeSet>
+    <changeSet id="161" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="95"/>
+            <column name="member_id" value="161"/>
+            <column name="last_name" value="திவ்யா"/>
+            <column name="eng_last_Name" value="Divya"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அருமந்தை"/>
+            <column name="town" value="அருமந்தை"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600067"/>
+        </insert>
+    </changeSet>
+    <changeSet id="162" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="96"/>
+            <column name="member_id" value="162"/>
+            <column name="first_name" value="J.D."/>
+            <column name="last_name" value="ஐசக்"/>
+            <column name="eng_last_Name" value="Issac"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="163" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="96"/>
+            <column name="member_id" value="163"/>
+            <column name="first_name" value="I."/>
+            <column name="last_name" value="ஐலின் ராணி"/>
+            <column name="eng_last_Name" value="Ilin Rani"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="164" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="97"/>
+            <column name="member_id" value="164"/>
+            <column name="first_name" value="S."/>
+            <column name="last_name" value="உலகம்மாள்"/>
+            <column name="baptised_name" value="ரோஸ்லின்"/>
+            <column name="eng_last_Name" value="Ulagammal"/>
+            <column name="eng_baptised_name" value="Rosline"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="கலைஞர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="165" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="98"/>
+            <column name="member_id" value="165"/>
+            <column name="first_name" value="R."/>
+            <column name="last_name" value="சசிகலா"/>
+            <column name="baptised_name" value="பியூலா"/>
+            <column name="eng_last_Name" value="Sasikala Beula R"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="பூதூர்"/>
+            <column name="town" value="பூதூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600067"/>
+        </insert>
+    </changeSet>
+    <changeSet id="166" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="99"/>
+            <column name="member_id" value="166"/>
+            <column name="first_name" value="M."/>
+            <column name="last_name" value="மணிகண்டன்"/>
+            <column name="baptised_name" value="மேஷாக்"/>
+            <column name="eng_last_Name" value="Manikandan"/>
+            <column name="eng_baptised_name" value="Meshak"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="167" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="99"/>
+            <column name="member_id" value="167"/>
+            <column name="first_name" value="M."/>
+            <column name="last_name" value="விக்னேஸ்வரி"/>
+            <column name="baptised_name" value="மெர்லின்"/>
+            <column name="eng_last_Name" value="Vigneshwari"/>
+            <column name="eng_baptised_name" value="Merlin"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="168" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="100"/>
+            <column name="member_id" value="168"/>
+            <column name="first_name" value="N."/>
+            <column name="last_name" value="விக்னேஷ்"/>
+            <column name="baptised_name" value="ஹென்றி"/>
+            <column name="eng_last_Name" value="Vignesh"/>
+            <column name="eng_baptised_name" value="Hendry"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="169" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="100"/>
+            <column name="member_id" value="169"/>
+            <column name="first_name" value="V."/>
+            <column name="last_name" value="பப்பித்தா"/>
+            <column name="baptised_name" value="ரூத்"/>
+            <column name="eng_last_Name" value="Papitha"/>
+            <column name="eng_baptised_name" value="Ruth"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="170" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="101"/>
+            <column name="member_id" value="170"/>
+            <column name="last_name" value="லட்சுமி"/>
+            <column name="baptised_name" value="ரூத்"/>
+            <column name="eng_last_Name" value="Lakshmi"/>
+            <column name="eng_baptised_name" value="Ruth"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="மாபுஸ்கான்பேட்டை"/>
+            <column name="town" value="மாபுஸ்கான்பேட்டை"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="171" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="102"/>
+            <column name="member_id" value="171"/>
+            <column name="last_name" value="பிரசாத்"/>
+            <column name="baptised_name" value="பென்னி"/>
+            <column name="eng_last_Name" value="Prasath"/>
+            <column name="eng_baptised_name" value="Benny"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="வெள்ளிவாயல்"/>
+            <column name="town" value="வெள்ளிவாயல்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="172" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="102"/>
+            <column name="member_id" value="172"/>
+            <column name="last_name" value="வினோதினி"/>
+            <column name="baptised_name" value="ஜெசிந்தா"/>
+            <column name="eng_last_Name" value="Vinothini "/>
+            <column name="eng_baptised_name" value="Jesintha"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="வெள்ளிவாயல்"/>
+            <column name="town" value="வெள்ளிவாயல்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="173" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="103"/>
+            <column name="member_id" value="173"/>
+            <column name="last_name" value="நித்தியானந்தம்"/>
+            <column name="eng_last_Name" value="Nithiyanatham"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="174" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="103"/>
+            <column name="member_id" value="174"/>
+            <column name="last_name" value="ஆனந்தி"/>
+            <column name="eng_last_Name" value="Aananthi"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="175" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="104"/>
+            <column name="member_id" value="175"/>
+            <column name="last_name" value="அசோக்"/>
+            <column name="eng_last_Name" value="Ashok"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="176" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="104"/>
+            <column name="member_id" value="176"/>
+            <column name="last_name" value="வினோதினி"/>
+            <column name="eng_last_Name" value="Vinothini"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="177" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="105"/>
+            <column name="member_id" value="177"/>
+            <column name="first_name" value="T."/>
+            <column name="last_name" value="வினோதினி க/பெ. தமிழ்ச்செல்வன்"/>
+            <column name="baptised_name" value="ஜஸ்டினா"/>
+            <column name="eng_last_Name" value="Vinothini w/o thamilselvan"/>
+            <column name="eng_baptised_name" value="Justina"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="178" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="42"/>
+            <column name="member_id" value="178"/>
+            <column name="first_name" value="A."/>
+            <column name="last_name" value="A.அருள்தாஸ்"/>
+            <column name="eng_last_Name" value="Aruldass"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="S"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="179" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="74"/>
+            <column name="member_id" value="179"/>
+            <column name="first_name" value="D."/>
+            <column name="last_name" value="ராகேஷ் குமார்"/>
+            <column name="baptised_name" value="டேவிட்"/>
+            <column name="eng_last_Name" value="Rakesh kumar"/>
+            <column name="eng_baptised_name" value="David"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="S"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="180" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="42"/>
+            <column name="member_id" value="180"/>
+            <column name="first_name" value="A."/>
+            <column name="last_name" value="வல்லரசு"/>
+            <column name="eng_last_Name" value="Vallarasu"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="S"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="181" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="17"/>
+            <column name="member_id" value="181"/>
+            <column name="first_name" value="V."/>
+            <column name="last_name" value="யோகேஷ்"/>
+            <column name="baptised_name" value="ஜான் ரோஜர்"/>
+            <column name="eng_last_Name" value="Yogesh"/>
+            <column name="eng_baptised_name" value="John Roger"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="S"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="182" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="17"/>
+            <column name="member_id" value="182"/>
+            <column name="first_name" value="V."/>
+            <column name="last_name" value="அஞ்சலி"/>
+            <column name="baptised_name" value="ஏஞ்சல்"/>
+            <column name="eng_last_Name" value="Anjali"/>
+            <column name="eng_baptised_name" value="Angel"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="S"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="183" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="106"/>
+            <column name="member_id" value="183"/>
+            <column name="last_name" value="அந்தோணி செல்வி"/>
+            <column name="eng_last_Name" value="Selvi Anthony"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="வெள்ளிவாயல்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="184" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="107"/>
+            <column name="member_id" value="184"/>
+            <column name="last_name" value="விமல்"/>
+            <column name="eng_last_Name" value="Vimal"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="பொன்னேரி"/>
+            <column name="town" value="பொன்னேரி"/>
+            <column name="city" value="திருவள்ளூர்"/>
+            <column name="postal_code" value="601204"/>
+        </insert>
+    </changeSet>
+    <changeSet id="185" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="107"/>
+            <column name="member_id" value="185"/>
+            <column name="last_name" value="ராசாத்தி"/>
+            <column name="baptised_name" value="மெர்லின்"/>
+            <column name="eng_last_Name" value="Rasathi"/>
+            <column name="eng_baptised_name" value="Merlin"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="M"/>
+            <column name="street" value="பொன்னேரி"/>
+            <column name="town" value="பொன்னேரி"/>
+            <column name="city" value="திருவள்ளூர்"/>
+            <column name="postal_code" value="601204"/>
+        </insert>
+    </changeSet>
+    <changeSet id="186" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="108"/>
+            <column name="member_id" value="186"/>
+            <column name="last_name" value="சிவகாமி"/>
+            <column name="eng_last_Name" value="Sivagami"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="187" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="109"/>
+            <column name="member_id" value="187"/>
+            <column name="last_name" value="காஞ்சனா"/>
+            <column name="eng_last_Name" value="Kanchana"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="188" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="110"/>
+            <column name="member_id" value="188"/>
+            <column name="last_name" value="காட்டம்மாள்"/>
+            <column name="eng_last_Name" value="Kaatammal"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="189" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="111"/>
+            <column name="member_id" value="189"/>
+            <column name="first_name" value="K."/>
+            <column name="last_name" value="சோபனா"/>
+            <column name="eng_last_Name" value="Shobana"/>
+            <column name="gender" value="F"/>
+            <column name="marital_status" value="W"/>
+            <column name="street" value="காந்தி நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="190" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="8"/>
+            <column name="member_id" value="190"/>
+            <column name="first_name" value="K."/>
+            <column name="last_name" value="சாலமோன் ராஜா"/>
+            <column name="eng_last_Name" value="Salomon Raja"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="S"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+    <changeSet id="191" author="infinity">
+        <insert schemaName="infinity" tableName="member">
+            <column name="family_no" value="32"/>
+            <column name="member_id" value="191"/>
+            <column name="first_name" value="N."/>
+            <column name="last_name" value="சாமுவேல்"/>
+            <column name="eng_last_Name" value="Samuel"/>
+            <column name="gender" value="M"/>
+            <column name="marital_status" value="S"/>
+            <column name="street" value="அம்பேத்கர் நகர்"/>
+            <column name="town" value="விச்சூர்"/>
+            <column name="city" value="சென்னை"/>
+            <column name="postal_code" value="600103"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

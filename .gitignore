@@ -1,0 +1,11 @@
+# dependency directory
+.idea
+
+#Test generated
+coverage
+!coverage/.gitkeep
+
+#build
+build
+
+.DS_Store

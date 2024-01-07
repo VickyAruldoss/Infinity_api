@@ -3,19 +3,22 @@ package model
 import constants "github.com/infinity-api/constant"
 
 type Member struct {
-	Id             int              `json:"id"`
-	FamilyNo       int              `json:"familyNo" validate:"required"`
-	SubscriptionNo int              `json:"subscriptionNo" validate:"required"`
-	Denotation     string           `json:"denotion" validate:"required"`
-	Name           string           `json:"name" validate:"required"`
-	NameEng        string           `json:"nameEng" validate:"required"`
-	DateOfBirth    string           `json:"dateOfBirth"`
-	Age            int              `json:"age" validate:"required"`
-	IsBaptised     bool             `json:"isBaptised"`
-	IsFamilyLeader bool             `json:"isFamilyLeader"`
-	Gender         constants.Gender `json:"gender" validate:"required"`
-	Address        Address          `json:"address"`
-	FamilyMembers  []Member         `json:"familyMembers"`
+	Id             int                     `json:"id"`
+	FamilyNo       int                     `json:"familyNo" validate:"required"`
+	SubscriptionNo int                     `json:"subscriptionNo" validate:"required"`
+	Title          string                  `json:"title" validate:"required"`
+	FirstName      *string                 `json:"firstName" validate:"required"`
+	LastName       *string                 `json:"lastName" validate:"required"`
+	FullName       string                  `json:"fullName" validate:"required"`
+	NameEng        *string                 `json:"nameEng" validate:"required"`
+	DateOfBirth    string                  `json:"dateOfBirth"`
+	Age            int                     `json:"age" validate:"required"`
+	IsBaptised     bool                    `json:"isBaptised"`
+	IsFamilyLeader bool                    `json:"isFamilyLeader"`
+	Gender         constants.Gender        `json:"gender" validate:"required"`
+	MaritalStatus  constants.MaritalStatus `json:"maritalStatus" validate:"required"`
+	Address        Address                 `json:"address"`
+	FamilyMembers  []Member                `json:"familyMembers,omitempty"`
 }
 
 type Address struct {
@@ -27,5 +30,33 @@ type Address struct {
 }
 
 func (member *Member) GetFullName() string {
-	return member.Denotation + "." + member.Name
+	fullName := member.Title + ". " + validString(member.FirstName) + validString(member.LastName)
+	return fullName
+}
+
+func validString(str *string) string {
+	var s string
+	if str != nil {
+		s = *str
+	} else {
+		s = ""
+	}
+	return s
+}
+
+func (member *Member) GetTitle() string {
+	var title string
+	if member.Gender == constants.Male && member.MaritalStatus == constants.Married {
+		title = constants.MR_T
+	}
+	if member.Gender == constants.Male && member.MaritalStatus == constants.Single {
+		title = constants.MASTER_T
+	}
+	if member.Gender == constants.Female && (member.MaritalStatus == constants.Married || member.MaritalStatus == constants.Divorced || member.MaritalStatus == constants.Widow) {
+		title = constants.MRS_T
+	}
+	if member.Gender == constants.Female && member.MaritalStatus == constants.Single {
+		title = constants.SELVI
+	}
+	return title
 }
